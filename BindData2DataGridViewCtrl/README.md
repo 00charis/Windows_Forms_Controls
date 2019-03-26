@@ -5,4 +5,6 @@ The DataGridView control supports the standard Windows Forms data binding model,
 
 To connect a DataGridView control to data:
 1. Implement a method to handle the details of retrieving the data. The following code example implements a `GetData` method that initializes a SqlDataAdapter, and uses it to populate a DataTable. It then binds the DataTable to the BindingSource.
-2. In the form's Load event handler, bind the DataGridView control to the BindingSource, and call the GetData method to retrieve the data.
+2. In the form's Load event handler, bind the DataGridView control to the BindingSource, and call the `GetData` method to retrieve the data.
+
+Populate the `connectionString` variable in the example with the values for your Northwind SQL Server sample database connection. Windows Authentication, also called integrated security, is a more secure way to connect to the database than storing a password in the connection string.
