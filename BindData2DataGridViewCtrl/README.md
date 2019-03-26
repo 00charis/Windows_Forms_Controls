@@ -1,6 +1,8 @@
 # How to: Bind data to the Windows Forms DataGridView control
 refer to https://docs.microsoft.com/en-us/dotnet/framework/winforms/controls/how-to-bind-data-to-the-windows-forms-datagridview-control
 
+not finished yet.
+
 The DataGridView control supports the standard Windows Forms data binding model, so it can bind to a variety of data sources. Usually, you bind to a BindingSource that manages the interaction with the data source. The BindingSource can be any Windows Forms data source, which gives you great flexibility when choosing or modifying your data's location. 
 
 To connect a DataGridView control to data:
