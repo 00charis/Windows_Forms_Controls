@@ -5,17 +5,13 @@ This is a step by step tutorial.
 
 - Step 1: Create a Project and Add Labels to Your Form
 
-Set the **AutoSize** property to True, which causes the button to automatically resize to fit the text.
+  Set the **AutoSize** property to True, which causes the button to automatically resize to fit the text.
 - Step 2: Create a Random Addition Problem
 
-The second statement sets the Enabled property of the startButton control to False so that the quiz taker can't choose the button during a quiz.
+  The second statement sets the Enabled property of the startButton control to False so that the quiz taker can't choose the button during a quiz.
 - Step 3: Add a Countdown Timer
 
-Because the interval value is milliseconds, a value of 1000 causes the Tick event to fire every second.
-
-The code editor appears and displays the method for the Tick event handler that you just added.
-
-end here: Based on what you added
+  Because the interval value is milliseconds, a value of 1000 causes the Tick event to fire every second. The code editor appears and displays the method for the Tick event handler that you just added.
 - Step 4: Add the CheckTheAnswer() Method
 - Step 5: Add Enter Event Handlers for the NumericUpDown Controls
 - Step 6: Add a Subtraction Problem
